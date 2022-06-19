@@ -2,6 +2,8 @@
 name = "triangle-thing"
 version = "0.1.0"
 edition = "2021"
+authors = "Nico"
+description = "honestly, idk how to call this but briefly (based on the number of rows decided by the user) it prints a triangle from the smallest to largest"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
