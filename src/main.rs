@@ -21,5 +21,4 @@ fn main() {
         println!("{}", character);
         character.push_str("*");
     }
-    
 }
