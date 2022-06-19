@@ -9,6 +9,7 @@ fn read (input: &mut String) {
 
 fn main() {
     let mut rows_num = String::new();
+    let mut character = String::from("*");
 
     print!("How many rows do you want? ");
     read(&mut rows_num);
@@ -16,8 +17,9 @@ fn main() {
     let rows_num:u8 = rows_num.trim().parse().expect("Not a valid number");
     println!("{} is the number of rows to print\n", rows_num);
 
-    for i in 1..rows_num+1 {
-        println!("Iteration number {}", i);
+    for _ in 1..=rows_num {
+        println!("{}", character);
+        character.push_str("*");
     }
     
 }
